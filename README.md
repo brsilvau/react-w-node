@@ -1,4 +1,4 @@
-# Project Name: ReactJS 18 with Node.js Express 4.18.2 Example
+# ReactJS 18 with Node.js Express 4.18.2 Example
 
 This is a basic example project demonstrating the integration of ReactJS 18 with Node.js using Express 4.18.2. The project showcases how to set up and run a simple React frontend with a Node.js backend.
 
