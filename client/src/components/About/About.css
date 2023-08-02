@@ -1,0 +1,46 @@
+/* Estilos para el contenedor principal */
+.about-container {
+    max-width: 80%;
+    margin: auto;
+    padding: auto;
+    background-color: #4c4f54;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.424);
+}
+
+/* Estilos para los títulos */
+.about-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Estilos para los párrafos */
+.about-paragraph {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+    line-height: 1.5;
+}
+
+/* Animaciones para los párrafos */
+@keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.about-paragraph.animated {
+animation: fadeIn 1s ease-in-out;
+}
+
+.background {
+    background-color: #727780;
+    min-height: 100vh;
+    padding-top: 60px;
+}
