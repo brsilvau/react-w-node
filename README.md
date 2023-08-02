@@ -41,7 +41,8 @@ To start the Node.js Express backend, use the following command in the root dire
 ```
 npm start
 ```
-The backend server will run on port 5000.
+The backend server will run on port 3001.
+
 5. Start the Frontend
 
 Open another terminal and navigate to the "client" directory:
@@ -57,7 +58,8 @@ Now, start the React development server for the frontend:
 npm start
 ```
 The React app will run on port 3000 by default.
-Project Structure
+
+## Project Structure
 
 The project has the following structure:
 
@@ -75,8 +77,11 @@ react-nodejs-example/
   ├── package-lock.json    # Auto-generated file for npm dependencies
   └── README.md            # Project documentation (you are reading this!)
 ```
+
 The backend is implemented in the server.js file, while the React frontend is in the client/src directory. The backend serves as a simple API that can be consumed by the frontend.
 
 Feel free to modify and expand the project as needed to explore more complex React and Node.js interactions.
 
 Happy coding! 🚀
+
+BS.
